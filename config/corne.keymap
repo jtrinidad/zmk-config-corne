@@ -169,6 +169,11 @@
             bindings = <&paragreat>;
             key-positions = <20 21>;
         };
+
+        GamingToggle {
+            bindings = <&tog 7>;
+            key-positions = <24 25>;
+        };
     };
 
     //
@@ -186,10 +191,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp ESC    &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y    &kp U              &kp I                &kp O            &kp P               &kp BACKSPACE
-&kp LSHFT  &mt A LEFT_GUI  &mt S LEFT_ALT  &mt D LEFT_CONTROL  &mt F LEFT_SHIFT  &kp G        &kp H    &mt J RIGHT_SHIFT  &mt K RIGHT_CONTROL  &mt L RIGHT_ALT  &mt SEMI RIGHT_GUI  &kp SQT
-&kp LCTRL  &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N    &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp RSHFT
-                                           &lt 3 ESC           &lt 1 SPACE       &lt 2 TAB    &kp RET  &lt 0 BACKSPACE    &kp DELETE
+&kp ESC    &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y        &kp U              &kp I                &kp O            &kp P               &kp BACKSPACE
+&kp LSHFT  &mt A LEFT_GUI  &mt S LEFT_ALT  &mt D LEFT_CONTROL  &mt F LEFT_SHIFT  &kp G        &kp H        &mt J RIGHT_SHIFT  &mt K RIGHT_CONTROL  &mt L RIGHT_ALT  &mt SEMI RIGHT_GUI  &kp SQT
+&kp LCTRL  &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N        &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp RSHFT
+                                           &lt 3 ESC           &lt 1 SPACE       &lt 2 TAB    &lt 5 ENTER  &lt 4 BACKSPACE    &lt 6 DEL
             >;
         };
 
@@ -251,7 +256,7 @@
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y    &kp U     &kp I      &kp O    &kp P     &kp BSPC
 &kp LSHFT  &kp A  &kp S  &kp D     &kp F      &kp G      &kp H    &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &tog 0
                          &kp LALT  &kp SPACE  &kp TAB    &kp RET  &kp BSPC  &kp DEL
             >;
         };
