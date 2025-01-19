@@ -219,7 +219,7 @@
             bindings = <
 &trans  &trans        &trans        &trans            &trans          &trans    &kp K_REDO    &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO  &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp CAPSLOCK  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT   &trans
-&to 2   &to 0         &tog 2        &tog 0            &mo 2           &mo 0     &kp INSERT    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &trans
+&to 0   &to 1         &tog 0        &tog 1            &mo 0           &mo 1     &kp INSERT    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &trans
                                     &trans            &trans          &trans    &kp ENTER     &kp BACKSPACE  &kp DELETE
             >;
         };
